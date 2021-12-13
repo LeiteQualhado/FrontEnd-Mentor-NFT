@@ -1,13 +1,9 @@
-import React, { Component } from 'react'
-
+import React, { Component } from "react";
+import MainBody from "../components/MainBody/MainBody";
 class Home extends Component {
-    render() {
-        return (
-            <div>
-                <h1>test</h1>
-            </div>
-        )
-    }
+  render() {
+    return <MainBody />;
+  }
 }
 
 export default Home;
